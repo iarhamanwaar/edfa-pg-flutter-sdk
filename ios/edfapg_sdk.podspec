@@ -5,9 +5,9 @@
 Pod::Spec.new do |s|
   s.name             = 'edfapg_sdk'
   s.version          = '0.0.1'
-  s.summary          = 'A Flutter plugin for ExpressPaySDK.'
+  s.summary          = 'A Flutter plugin for EdfaPaymentSDK.'
   s.description      = <<-DESC
-ExpressPay Flutter plugin was developed and designed with one purpose: to help the iOS/Android developers easily integrate the ExpressPay API Payment Platform for a specific merchant.
+EdfaPgSdk Flutter plugin was developed and designed with one purpose: to help the iOS/Android developers easily integrate the ExpressPay API Payment Platform for a specific merchant.
                        DESC
   s.homepage         = 'https://edfapay.com'
   s.license          = { :file => '../LICENSE' }
@@ -15,7 +15,7 @@ ExpressPay Flutter plugin was developed and designed with one purpose: to help t
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'EdfaPgSdk', '~> 0.0.2'
+  s.dependency 'EdfaPgSdk', '~> 1.0.1'
   s.platform = :ios, '11.0'
 
   # Flutter.framework does not contain a i386 slice.
